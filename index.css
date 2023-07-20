@@ -375,10 +375,13 @@ color: #FF42A5;
   }
   .download-img{
     width: 100%;
-    padding: 50px;
+    height: 100%;
   }
   .img-1{
     width:300px;
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    
     
   }
   .img-2{
