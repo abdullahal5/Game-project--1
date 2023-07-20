@@ -256,6 +256,7 @@ font-weight: 400;
   align-items: center;
   gap: 35px;
   background: #FFF;
+  width: 100%;
   
 
 }
@@ -377,11 +378,13 @@ color: #FF42A5;
     padding: 50px;
   }
   .img-1{
-    width:350px;
+    width:300px;
     
   }
   .img-2{
     padding-left: 30px;
+    width: 150px;
+    padding-top: 70px;
 
   }
   .download-description{
@@ -398,11 +401,12 @@ color: #FF42A5;
     
   }
   .icon-text-container{
-    display: grid;
-    grid-template-columns: repeat(2, 250px);
+    display: flex;
+   flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
     margin: o auto;
+    width: 100%;
   }
   #icon-2{
     text-align: center;
@@ -412,8 +416,6 @@ color: #FF42A5;
     width: 20px;
   }
   
-  #icon-2{
-    padding-left: 200px;
-  }
+  
   
 }
