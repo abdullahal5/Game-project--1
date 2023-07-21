@@ -163,7 +163,7 @@ background-size: cover;
   justify-content:center;
   gap: 20px;
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
 
 }
 .fun-game-section{
@@ -210,7 +210,7 @@ font-weight: 500;
   padding-left: 140px;
 }
 .download-img{
-  width: 50%;
+  width: 100%;
 }
 .download-heading{
 font-size: 48px;
@@ -229,13 +229,12 @@ font-size: 18px;
 font-weight: 400;
 }
 .img-1{
-  width: 500px;
-  padding-left: 90px;
+  width: 200px;
+  padding-left: 40px;
 }
 .img-2{
   width: 250px;
-  margin-top: -150px;
-  margin-right: 50px;
+  margin-top: -140px;
 }
 .icon{
   display: flex;
@@ -277,7 +276,71 @@ color: #FF42A5;
   color: #FF42A5;
   
 }
+.footer{
+  background-color: #0B0223;
+  height: 70vh;
+  
+}
+footer{
+  padding-top: 90px;
+}
+.footer-text{
+  color: white;
+  font-size: 25px;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.gamer-heading-1{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.single-word-color{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+}
+ .list{
+  color: #000000;
+
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+  padding-top: 40px;
+}
+footer ul a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.img-icon{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+.terms{
+  font-size: 16px;
+  padding-top: 0px;
+  color: #FFFFFF;
+}
+.copyright{
+  text-align: center;
+  padding-top: 10px;
+  color: #FFFFFF;
+}
 
 
 
@@ -380,7 +443,7 @@ color: #FF42A5;
   .img-1{
     width:300px;
     display: grid;
-    grid-template-columns: repeat(1, 100px);
+    grid-template-columns: repeat(1, 1fr);
     
     
   }
@@ -418,7 +481,23 @@ color: #FF42A5;
   .icon-image{
     width: 20px;
   }
-  
+  .footer{
+    overflow-x: hidden;
+  }
+  footer ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .img-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .terms-1 ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+  }
   
   
 }
