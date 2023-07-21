@@ -3,7 +3,11 @@ body{
   width: 100vw;
   margin: 0px;
   padding: 0px;
-
+*{
+  font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
   
   /* nav-section s */
 }
