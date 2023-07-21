@@ -450,14 +450,7 @@ footer{
     
     
   }
-  
-    .img-icon{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      font-size:40px ;
-    
-  }
+
   header{
    overflow-x: hidden;
    padding: 0px;
@@ -584,23 +577,30 @@ footer{
   .icon-image{
     width: 20px;
   }
-  .footer{
+  footer{
     overflow-x: hidden;
   }
   footer ul{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding: 10px ;
+    padding-right: 40px;
+    padding-top: 50px;
   }
   .img-icon{
-    display:flex;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    padding-top: 50px;
+    padding-left: 40px;
     gap: 30px;
+    font-size: 40px;
   }
   .terms-1 ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
     
     
   }
